@@ -23,5 +23,9 @@ Final-year BE CSE student with a strong interest in Website Quality Assurance an
 - Jira (basic)
 - Playwright (learning)
 
+ ## Manual Testing Samples
+- [Manual Testing Report](manual-testing-sample/test-report.md)
+
+
 ## Goal
 To grow as a Site Quality Assurance Intern and contribute to high-quality, user-friendly web platforms.
