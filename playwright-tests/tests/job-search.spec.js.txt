@@ -1,0 +1,30 @@
+import { test, expect } from '@playwright/test';
+
+/**
+ * Job Search Flow Test
+ * Purpose:
+ * Validate that a user can search for jobs and see results.
+ * This mimics a core business-critical flow for job platforms like Pflegia.
+ */
+test('User can perform a job search and view results', async ({ page }) => {
+  // Step 1: Navigate to job platform (example site used)
+  await page.goto('https://www.indeed.com');
+
+  // Step 2: Locate search input fields
+  const whatInput = page.locator('input[name="q"]');
+  const whereInput = page.locator('input[name="l"]');
+
+  // Step 3: Enter search criteria
+  await whatInput.fill('Nurse');
+  await whereInput.fill('Germany');
+
+  // Step 4: Submit search
+  await page.keyboard.press('Enter');
+
+  // Step 5: Validate results page loads
+  await expect(page).toHaveURL(/jobs|search/);
+
+  // Step 6: Validate job results are visible
+  const jobCards = page.locator('[data-testid="jobTitle"]');
+  await expect(jobCards.first()).toBeVisible();
+});
