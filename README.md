@@ -22,6 +22,12 @@ Final-year BE CSE student with a strong interest in Website Quality Assurance an
 - GitHub
 - Jira (basic)
 - Playwright (learning)
+  
+Note: Some E2E tests target public job platforms. 
+Selectors and behavior may vary by region or browser, 
+which is intentionally handled using robust waits and fallback selectors.
+
+  
 
  ## Manual Testing Samples
 - [Manual Testing Report](manual-testing-sample/test-report.md)
