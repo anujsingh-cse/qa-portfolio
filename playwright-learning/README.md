@@ -1,10 +1,12 @@
-# Playwright Learning
+# Playwright E2E Testing
 
-This folder contains my learning notes and practice scripts for Playwright end-to-end testing.
+This folder contains real end-to-end tests written using Playwright.
 
-## Goals
-- Learn E2E testing fundamentals
-- Automate basic user flows
-- Improve test reliability and coverage
+## Test Scenarios
+- Homepage load validation
+- Page title verification
+- Visibility of key UI elements
+- Link URL validation
 
-(Status: In Progress)
+## Status
+Actively learning and expanding test coverage.
