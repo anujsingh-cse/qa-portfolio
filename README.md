@@ -1,6 +1,6 @@
 # QA Portfolio – Anuj Singh
 
-Final-year Bachelor of Engineering (Computer Science & Engineering) student with a strong interest in **Website Quality Assurance, user experience, and web reliability**. Focuseshdddszhjvdzd on ensuring high-quality, user-friendly web platforms through structured manual testing and learning automated end-to-end testing.
+Final-year Bachelor of Engineering (Computer Science & Engineering) student with a strong interest in **Website Quality Assurance, user experience, and web reliability**. Focuses on ensuring high-quality, user-friendly web platforms through structured manual testing and learning automated end-to-end testing.
 
 ---
 
